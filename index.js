@@ -56,7 +56,12 @@ const newspapers = [
   {
     name: "dailypost",
     address: "https://dailypost.ng/politics/",
-    base: ""
+    base: "",
+  },
+  {
+    name: "pmnews",
+    address: "https://pmnewsnigeria.com/category/news/politics/",
+    base: ''
   },
 ];
 
