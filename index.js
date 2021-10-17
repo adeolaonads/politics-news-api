@@ -1,4 +1,4 @@
-const port =  process.env.port || 8000
+const port =  process.env.PORT || 8000
 const express = require('express')
 const cheerio = require('cheerio')
 const axios = require('axios')
@@ -63,6 +63,11 @@ const newspapers = [
     address: "https://pmnewsnigeria.com/category/news/politics/",
     base: ''
   },
+  {
+    name: "leadership",
+    address: "https://leadership.ng/politics/",
+    base: '',
+  }
 ];
 
 
